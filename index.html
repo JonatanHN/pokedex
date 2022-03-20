@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+  <head>
+    <!-- Metadatos -->
+    <meta charset='utf-8' />
+    <meta name='description' content='Descripción de la página.' />
+    <meta name='viewport' content='width=device-width,initial-scale=1, shrink-to-fit=no' />
+    <meta name='keywords' content='' />
+    <meta name='author' content='JonatanHN' />
+    <meta name='copyright' content='' />
+    <meta property='og:description' content='' />
+    <meta property='og:type' content='' />
+    <meta property='og:image' content='' />
+    <meta name='theme-color' content='#222' />
+    <meta property='og:url' content='urlofaplication' />
+    <meta property='og:title' content='titleofpage' />
+    <meta name='twitter:card' content='summary' />
+    <meta name='twitter:site' content='yourwebsite' />
+    <meta name='twitter:creator' content='@jonatanhn00' />
+    <meta name='robots' content='' />
+    <!-- Styles -->
+    <link rel='stylesheet' href='css/styles.css' />
+    <link rel='stylesheet' href='' />
+    <!-- Title -->
+    <title>Pokedex</title>
+    <!-- Favicon -->
+    <link rel='icon' href='https://img.icons8.com/color/48/000000/pokeball-2.png' />
+    <!-- Icons -->
+    <link rel='stylesheet' href='' />
+    <!-- Map -->
+    <!-- Scripts -->
+    <script src="https://kit.fontawesome.com/20b942cdca.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <a href="/">
+        <img src="https://img.icons8.com/color/48/000000/pokeball-2.png" alt="" class="logo">
+      </a>
+      <div class="poke-desktop" id="#">
+        <div class="barSearch">
+          <input 
+          type="text" 
+          id="namePoke" 
+          name="namePoke" 
+          class="Search" 
+          placeholder="Ingresa Tu Pokemon Aqui ( Y Presiona la tecla Enter)" 
+          required>
+          <select 
+          class="genPoke" 
+          id="nombresPoke" 
+          name="" id="">
+            <option value="0" selected>Nombres de pokemon</option>
+          </select>
+          <select class="typePoke" id="typePoke" name="" id="">
+            <option value="0" selected>Tipos de pokemon</option>
+          </select>
+          <button type="submit" id="searchBtn" class="sbmt">
+            <i class="fa-brands fa-searchengin"></i>
+          </button>
+        </div>
+        <div id="pokemonInfo">
+        
+        </div>
+      </div>
+      <div class="poke-responsive">
+        <div id="pokemonInfoResponsive">
+        
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/api.js"></script>r
+  </body>
+
+</html>
